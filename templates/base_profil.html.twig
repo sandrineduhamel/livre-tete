@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ asset ('assets/style.css') }}">
+</head>
+<body>
+<header>
+
+        <div class="logo">
+            <img class="imgFluide" src="{{ asset('assets/img/images.jpeg') }}" alt="">
+        </div>
+        <h1>Just be cool</h1>
+
+</header>
+    <div class="sidenav">
+        <ul class="list_nom">
+            <li><a href="{{ path('lists') }}">Jonathan G. Ferrar II</a></li>
+            <li><a href="{{ path('lists') }}">Barot Bellingham</a></li>
+            <li><a href="{{ path('lists') }}">Hillary Hewitt</a></li>
+            <li><a href="{{ path('lists') }}">Hassum Harrod</a></li>
+            <li><a href="{{ path('lists') }}">Jennifer Jerome</a></li>
+            <li><a href="{{ path('lists') }}">LaVonne L. LaRue</a></li>
+            <li><a href="{{ path('lists') }}">Constance Olivia Smith</a></li>
+            <li><a href="{{ path('lists') }}">Riley Rudolph Rewington</a></li>
+            <li> <a href="{{ path('lists') }}">Xhou Ta</a></li>
+        </ul>
+    </div>
+<main>
+
+    <div class="main">
+        {% block main %}
+        {% endblock %}
+    </div>
+</main>
+
+<footer>
+    <div class="foot">
+        <div class="foot_logo">
+            <img src="{{asset('assets/img/images.jpeg')  }}" alt="">
+        </div>
+        <div class="foot_logo">
+            <img src="{{ asset('assets/img/images.jpeg')}}" alt="">
+        </div>
+    </div>
+
+</footer>
+</body>
+</html>

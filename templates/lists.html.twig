@@ -1,0 +1,17 @@
+{% extends('base_profil.html.twig') %}
+
+{% block main %}
+
+    <div class="profils">
+        {% for profil in profils %}
+            <div class="profil">
+                <h2>{{ profil.name }}</h2>
+                <h2>{{ profil.shortname }}</h2>
+                <h2>{{ profil.reknown }}</h2>
+                <img src="{{ asset( profil.image ) }}" alt="" class="profil-img">
+            </div>
+        {% endfor %}
+    </div>
+
+
+{% endblock %}

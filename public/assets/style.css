@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    margin: 5px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.imgFluide{
+    width: 100%;
+    height: auto;
+}
+.logo{
+    width: 10%;
+    height: auto;
+}
+header h1{
+    margin-top: 40px;
+}
+.sidenav {
+    height: 100%;
+    width: 160px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: black;
+    overflow-x: hidden;
+    padding: 20px;
+
+}
+.list_nom a{
+    text-decoration: none;
+}
+.list_nom li{
+    margin-top: 10px;
+}
+.list_nom a:visited {
+    margin: 20px;
+    color: white;
+}
+.list_nom a:hover{
+    color: pink;
+}
+
+.main{
+    width: 80%;
+    margin-left: 160px;
+}
+.foot{
+    width: 100vW;
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    width: 100%;
+    height: 150px;
+    margin: 5px;
+    display: flex;
+    justify-content: end;
+
+}
+.foot_logo{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.profils {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profil {
+    width: 40%;
+    padding: 20px;
+}
+
+.profil-img {
+    width: 100%;
+}
+.img_main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
